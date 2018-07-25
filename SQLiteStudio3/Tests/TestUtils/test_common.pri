@@ -4,3 +4,5 @@ include($$PWD/../testdirs.pri)
 CONFIG += c++11
 
 LIBS += -lTestUtils -lcoreSQLiteStudio
+
+# PRE_TARGETDEPS += TestUtils coreSQLiteStudio

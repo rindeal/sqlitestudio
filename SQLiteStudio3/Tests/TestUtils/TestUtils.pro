@@ -4,14 +4,15 @@
 #
 #-------------------------------------------------
 
-include(test_common.pri)
+# include(test_common.pri)
 
 QT       -= gui
 
 TARGET = TestUtils
 TEMPLATE = lib
+CONFIG += create_prl
 
-QMAKE_CXXFLAGS += -std=c++11
+
 
 DEFINES += TESTUTILS_LIBRARY
 
